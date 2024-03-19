@@ -13,3 +13,25 @@ echo "$nu2" >> $fil
 
 echo "Below are the details of the file $fil"
 cat $fil
+
+Here's a breakdown of each part of the script:
+
+Prompting for File Name: The script prompts the user to enter a file name using the echo and read commands.
+
+Creating the File: The touch command is used to create the file with the name entered by the user.
+
+Displaying File Details: The ls -ltr command is used to display detailed information about the file, such as its permissions, owner, size, and modification time.
+
+Prompting for Inputs: The script prompts the user to enter two inputs using the read command.
+
+Appending Inputs to File: The >> operator is used to append the inputs entered by the user to the file.
+
+Displaying File Contents: The cat command is used to display the contents of the file.
+
+Overall, this script allows users to create a file, add content to it, and view its details and contents.
+
+
+
+
+
+
